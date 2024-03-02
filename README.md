@@ -4,15 +4,18 @@ Project Title: Exploratory Analysis and Classification of Pima Indians Diabetes 
 1. Introduction:
 
 The project aims to explore the Pima Indians Diabetes dataset, understand its characteristics, preprocess the data, build classification models using the Perceptron algorithm, address class imbalance, and optimize model performance.
+
 2. Dataset Overview:
 
 The Pima Indians Diabetes dataset contains various health-related attributes of individuals, along with a binary target indicating the presence or absence of diabetes.
 It consists of 768 instances and 9 attributes including features like pregnancy count, glucose concentration, blood pressure, skin thickness, insulin level, BMI, diabetes pedigree function, age, and the target variable class.
+
 3. Data Preprocessing:
 
 Checked for missing values (none found).
 Split the data into features and target variables.
 Applied Min-Max scaling to normalize the feature values between 0 and 1.
+
 4. Data Splitting:
 
 Split the data into training (60%), testing (20%), and validation (20%) sets.
